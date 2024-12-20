@@ -11,35 +11,45 @@
 
 {% block content %}
 
- <!-- Секция 2: Карточки -->
-        <section class="row my-5">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                    <img src="Tom Hanks.jpeg" class="card-img-top img-fluid" alt="Карточка 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Том Хэнкс</h5>
-                        <p class="card-text">американский актёр театра, кино, телевидения и озвучивания, продюсер, кинорежиссёр, сценарист и писатель..</p>
-                    </div>
-                </div>
+<!-- Секция 2: Карточки -->
+<section class="row my-5">
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-img-wrapper">
+                <img src="static/images/GuyRitchi.jpg" class="card-img-top img-fluid" alt="Карточка 1" style="object-fit: contain; height: 200px;">
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                    <img src="Tom Hardy.jpeg" class="card-img-top img-fluid" alt="Карточка 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Том Харди</h5>
-                        <p class="card-text">британский актёр, продюсер и сценарист. Обладатель премии BAFTA и номинант на премию «Оскар».</p>
-                    </div>
-                </div>
+            <div class="card-body">
+                <h5 class="card-title">Гай Ричи</h5>
+                <p class="card-text">Британский кинорежиссёр, сценарист, продюсер</p>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                    <img src="Tom Cruise.jpg" class="card-img-top img-fluid" alt="Карточка 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Том Круз</h5>
-                        <p class="card-text">американский актёр, кинорежиссёр, сценарист и кинопродюсер. Трёхкратный обладатель премии «Золотой глобус».</p>
-                    </div>
-                </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-img-wrapper">
+                <img src="static/images/Moscow.jpg" class="card-img-top img-fluid" alt="Карточка 2" style="object-fit: contain; height: 200px;">
             </div>
-        </section>
+            <div class="card-body">
+                <h5 class="card-title">Последние новости</h5>
+                <p class="card-text">В 2021 году взял однушку в ипотеку в центре Москвы и начинает снимать сомнительные фильмы, чтобы оплачивать.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-img-wrapper">
+                <img src="static/images/Gentle.jpg" class="card-img-top img-fluid" alt="Карточка 3" style="object-fit: contain; height: 200px;">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Последний стоящий фильм</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
 
 {% endblock %}
